@@ -1,0 +1,23 @@
+Comparison Operators
+----------------------
+
+The == operator tests whether the two operands are equal.
+The != operator tests whether the two operands are not equal.
+The < operator tests whether the first operand is less than the second operand.
+The > operator tests whether the first operand is greater than the second operand.
+The <= operator tests whether the first operand is less than or equal to the second operand.
+The >= operator tests whether the first operand is greater than or equal to the second operand.
+
+
+Examples 
+-----------
+
+Declare 2 integer variabless
+d and f
+
+int d = 100;
+int f = 33;
+
+System.out.println(d > f);
+System.out.println(d==f);
+and test all the other operators.
