@@ -1,0 +1,28 @@
+Adding parameters to the Function
+---------------------------------
+Create 3 functions subtract, add multiply.
+
+Kudar 
+Kajar 
+Kudhufo 
+Example
+-----------
+public class Method {
+
+	
+	public static void main(String[] args) {
+	
+     kudar(20,10);
+     kajar(50,40);
+	}
+	static void kudar(int a, int b)
+	{
+		System.out.println("Iksudar = " +(a+b));
+	}
+	
+static void kajar(int a, int b)
+{
+	
+	System.out.println("Kalajarku waa = " +(a%b));
+}
+}
