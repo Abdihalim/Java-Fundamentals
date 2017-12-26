@@ -1,0 +1,12 @@
+Data types
+-----------
+String string  "name"
+character char        like 'c' or '%'
+intger int            like 10
+double decimal values like 1.1
+boolean   true or false
+
+
+Examples
+follow the practical.
+
