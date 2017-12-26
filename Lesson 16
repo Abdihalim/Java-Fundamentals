@@ -1,0 +1,44 @@
+More about functions (Returning a value)
+----------------------------------------
+1st Design 
+-----------
+ int iskudar = kudar(20,10);
+		 int kalajar = kajar(30,40);
+		 System.out.println("Iksudar = " +iskudar);
+		 System.out.println("Iksudar = " +kalajar);
+		 
+		}
+		static int kudar(int a, int b)
+		{
+			int kudar = a+b;
+			return kudar;
+		}
+		
+	static int kajar(int a, int b)
+	{
+		
+		int kajar = a-b;
+		return kajar;
+	}
+	}
+2nd Design 
+--------------
+ int iskudar = kudar(20,10);
+		 int kalajar = kajar(30,40);
+		 System.out.println("Iksudar = " +iskudar);
+		 System.out.println("Iksudar = " +kalajar);
+		 
+		}
+		static int kudar(int a, int b)
+		{
+			
+			return (a+b);
+		}
+		
+	static int kajar(int a, int b)
+	{
+		
+		
+		return (a-b);
+	}
+	}
