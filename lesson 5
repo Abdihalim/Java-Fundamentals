@@ -1,0 +1,52 @@
+Boolean operators 
+----------------------
+also called Logical Operators.
+
+Java Boolean Operators contain three operators AND OR NOT
+
+Example
+--------
+
+int s = 10;
+int d = 12;
+
+System.out.println((s > d));
+
+&& AND
+------
+&& shows True only when both sides are true
+&& show False when one side is false
+System.out.println((a < b) && (a == b));
+
+
+public class {
+{
+Int 
+int 
+System.out
+}
+}
+
+|| OR
+------
+|| OR, shows True if one side if true
+
+public class {
+{
+Int 
+int 
+System.out
+}
+}
+System.out.println((a < b) || (a == b));
+System.out.println((a > b) || (a == 9));
+!NOT
+----
+!(True) = false
+!(false) = True
+System.out.println(!(a > b));
+System.out.println(!(a < b));
+
+
+
+
