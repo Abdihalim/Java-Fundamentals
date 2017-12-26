@@ -1,0 +1,22 @@
+else if 
+---------
+Public class ifstatement {
+public static void main (String[] args){
+
+System.out.println("The list of statement");
+int t = 3;
+
+if(t = 3)
+{
+System.out.println("The Value is 3");
+}
+else if (x == 1)
+{
+System.out.println("The value isn't 3");
+}
+else if (x == 7)
+{
+System.out.println("the value is 7");
+}
+}
+}
