@@ -1,0 +1,19 @@
+Fo Loop 
+---------
+4 loop is generally used in Programming
+
+for(int j=0;j<=5;j++)
+Initialization 
+Condition 
+Increment/decrement
+
+Example 
+---------
+-Java project
+-Class
+-Body
+
+for (int j=0;j<=5;j++)
+{
+System.out.println("Salan sare");
+}
