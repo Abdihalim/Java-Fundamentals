@@ -1,0 +1,17 @@
+While loop 
+-----------
+To repeat the code many times its better to use loop
+
+Example 
+--------
+-Create java project 
+-Create the class
+-Create the body 
+
+int Jamac = 7;
+
+while ( Jamac <= 7)
+{
+System.out.println("The number is 7");
+Jamac++;
+}
