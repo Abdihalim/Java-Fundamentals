@@ -1,0 +1,16 @@
+Do while loop 
+----------------
+The difference b/w the while and Do While loop is While loop excutes only if the statement satisfies the condition, but Do while loop excues once even if the condition doesnt satisfy.
+
+Example 
+---------
+-Java project
+-Class
+-Body
+
+int Jamac = 1;
+
+do 
+{
+System.out.println("Wad salaman tihin"+Jamac);
+}while(Jamac<=5);
