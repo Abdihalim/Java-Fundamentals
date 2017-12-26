@@ -1,0 +1,90 @@
+Mathematical signs (operators)
+------------------------------
+
+Brackets, Orders or pOwers, Division, Multiplication, Addition, Subtraction. 
+
+Go to the following link for more practical
+
+
+Addition +  
+Subtraction -
+multiplication *
+Reminder %
+Division /
+
+Examples 
+
+Create 4 different integers 
+
+int x;
+int s;
+int c;
+int d;
+
+
+a = 4;
+b = 3;
+c = 6;
+d = 7;
+
+Add all the integers
+
+System.out.println(x+s+c+d);
+
+Add two integers x and d
+
+System.out.println(x+d);
+
+subtract s and c
+
+System.out.println(s-c);
+
+Subtract all 
+
+System.out.println(x-s-c-d);
+
+multiply c by x
+
+System.out.println(c * x);
+
+Multiply  all?
+
+
+Divide x by d
+
+System.out.println(x / d);
+
+Show the reminder of c to x
+
+System.out.println(c%x); % module
+
+Show the reminder of d to c?
+
+Nested Expresssions 
+
+(x+s) / (c*d)
+
+(x+s) +  (c* 2)
+
+(c/d) * (x -s)
+
+(c/s) * (x -s)
+
+(c/s + 4 - 5) * (x -s/2)
+
+(c*s+5-2*d-4*x) % 2
+
+What is concatenation operator?
+
+Examples
+System.out.println("x oo lagu daray s wa " + (x+s));
+
+Create 2 examples of each operator?
+
+
+
+
+
+
+
+
