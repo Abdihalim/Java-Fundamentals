@@ -1,0 +1,35 @@
+Nested if 
+-----------
+
+Public class ifstatement {
+public static void main (String[] args){
+
+System.out.println("The list of statement");
+int t = 3;
+
+if(t = 3)
+{
+System.out.println("The Value is 3");
+
+if(t = 2)
+{
+
+Syste.out.println("The Value is 2");
+ if (t = 0)
+ {
+ Syste.out.println("The number is 0");
+}
+else
+{
+System.out.println("The value is nothing");
+}
+}
+
+
+}
+else
+{
+System.out.println("The value isn't 3");
+}
+}
+}
