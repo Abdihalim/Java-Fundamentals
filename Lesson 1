@@ -1,0 +1,41 @@
+What is the variable?
+
+Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
+
+Variable has a data type (the type of data that it'll store)
+Declaration is creating the variable?
+Declaring variable contains 2 parts: The type and the name of the variable.
+
+Example:-
+string y; str is the type of the variable and y is the name of the variable.
+int f; do it.
+
+variable value  
+
+What is the = and ==
+
+there are 2 ways to assign the variable values
+
+method 1
+
+string x;
+x = "Learning java";
+
+method 2
+
+String x = "Learning Java";
+
+
+There are two types of variables: primitive type and reference type.
+
+
+Finally what is the difference between primitive and reference types?
+primitive types hold their own value but reference types just point out the memory address of the value.
+
+
+Exercise 
+
+Create integer variable named D and give the value of 2 then display it on the CMD.
+create ingeter variable named G and give the value of 100 and demonstrate it on the CMD.
+create string variable named magac and give the value of "Axmed" and demonstrate it on the CMD.
+create string variable named xaafad and give the value of "Farxaskulle" and demonstrate it on the CMD.
