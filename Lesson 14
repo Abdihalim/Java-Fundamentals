@@ -1,0 +1,46 @@
+Method/Function 
+------------------
+Method has a return type 
+void = repeats nothing 
+
+void fun()
+return type
+method name
+parameter list
+
+
+The static keyword denotes that a member variable, or method, can be accessed without requiring an instantiation of the class to which it belongs. In simple terms, it means that you can call a method, even if you've never created the object to which it belongs!
+
+Example 
+---------
+Create Java project
+Create the class
+Body 
+
+System.out.println("Number 1");
+System.out.println("Number 2");
+System.out.println("Next Numbers");
+System.out.println("Number 1");
+System.out.println("Number 2");
+System.out.println("Next Numbers");
+System.out.println("Number 1");
+System.out.println("Number 2");
+
+the above way is tedious so lets create a function and call the function normally!!.
+
+fun();
+System.out.println("Next Numbers");
+
+fun();
+System.out.println("Next Numbers");
+
+fun();
+System.out.println("Next Numbers");
+}
+void fun() // Add static if there is an error.
+{
+System.out.println("Number 1");
+System.out.println("Number 2");
+}
+
+}
