@@ -1,0 +1,50 @@
+Method overloading 
+----------------
+same method which have different values.
+
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+	
+		hooyo ani = new hooyo();
+		ani.wiil(10);
+		ani.wiil(10,4,5);
+		ani.wiil("masha Allah");
+		
+		
+		System.out.println();
+		
+		
+		
+		
+	}
+}
+class hooyo {
+	
+	
+	void wiil (int a){
+		
+		System.out.println("the number is  "+a);
+	}
+	
+  void wiil (int a, int b, int c){
+		
+		System.out.println("the number is  "+a+" " +b+" "+c);
+	}
+  void wiil(String a){
+	  
+	  System.out.println("the string is "+a);
+  }
+	
+	
+	
+}
+class aniga extends hooyo{
+	
+	
+		
+	}
+	
+

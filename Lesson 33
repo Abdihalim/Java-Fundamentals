@@ -1,0 +1,38 @@
+Java static keyword
+-------------------
+They are belongs to the class but not the object
+Objects are created in memory but static aren't included, they are stored in different place but all the objects share with the static.
+static can deal with static only, try to create another method out side the static, it wont work.
+
+The static keyword in java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than instance of the class.
+
+The static can be:
+
+    1- variable (also known as class variable)
+    2- method (also known as class method)
+    3- block
+    4- nested class
+    
+ 1) Java static variable
+
+If you declare any variable as static, it is known static variable.
+
+    The static variable can be used to refer the common property of all objects (that is not unique for each object) e.g. company name of employees,college name of students etc.
+    The static variable gets memory only once in class area at the time of class loading.
+
+    Advantage
+    ---------
+    It makes your program memory efficient (i.e it saves memory).
+  
+  
+
+
+What are heap and stack memory
+------------------------------
+ In general, both stack and heap are part of memory.
+ 
+  1) The main difference between heap and stack is that stack memory is used to store local variables and function call while heap memory is used to store objects in Java. No matter, where the object is created in code e.g. as a member variable, local variable or class variable,  they are always created inside heap space in Java.
+
+  
+  To understand more about it run click on here  http://javarevisited.blogspot.com.tr/2013/01/difference-between-stack-and-heap-java.html
+ 

@@ -1,0 +1,73 @@
+Variable Scopes
+---------------
+The visibility and accessibility we use the term scope.
+The modifier (public, private) restricts or permits direct access to the variable with respect to its scope (class, method, etc.).
+While methods represent the behavior of an object, variables represent the state of an object. 
+Variables may be of two types – Class variables and Instance Variables. 
+Class variables are common to all instances of that class where as instance variables are specific to an object.
+
+1) Class variables, also called as static variables, are declared with the keyword static.
+
+class StaticVariables
+{
+    static int i;        //Static Variable
+     
+    static String s;     //Static Variable
+}
+
+1) Instance variables, also called as non-static variables are declared without static keyword.
+class InstanceVariables
+{
+    int i;        //Instance Variable
+     
+    String s;     //Instance Variable
+}
+
+Example
+----------
+public class yeni {
+
+	
+	public static void main(String[] args) {
+		
+    mahad shay = new mahad();
+    shay.eats();
+    shay.runs();
+    shay.reads();
+
+    for(x=1;x<10;x++){
+    System.out.println("Jamac");
+    }
+    //x = 4;   you cant call jamac from here its out of the scope
+    }
+    
+	
+	//Example step 1
+	mahad = 1; // this variable can be used only inside the above main method
+
+}
+class mahad
+{
+    int tel;
+    String color;
+    String timo;
+    String gadh;
+    String xaas;
+    
+    void runs(){
+        
+    	System.out.println("He runs fast");
+    	
+    }
+    
+    void reads(){
+    	
+    	System.out.println("Mahad reads all books");
+    }
+	void eats(){
+		System.out.println(timo); // you can call timo as they are declared in class level
+		System.out.println("He eats less food");
+	}
+	
+}
+

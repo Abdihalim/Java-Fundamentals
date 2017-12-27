@@ -1,0 +1,69 @@
+Class and object
+-----------------
+Class is the basic building of Object Oriented Programming.
+For example the design of the building is the calass and the real one is the object.
+In short the diagram is the class and the actual building is the object.
+Again the class is the blueprint of an object, then the object is constructed on memory.
+
+Primitive variables and reference variables
+
+Car gaadhi = new Car();
+
+Examples of Objects
+-------------------
+Car, Cat, House, Mobile, Dog, Lion, Person.....
+
+Each object has 2 things the properties (Data) and the behaviour.
+
+Properties/attributes of Car (Variables)
+-----------------------------
+-Colour
+-model
+-design 
+-speed
+-Battery
+-Lights
+-and so on
+
+Behaviour of the Car (Methods)
+------------------------------
+-Moves
+-Starts
+-Shuts down
+-Makes sound
+
+Example of an object and class
+------------------------------
+public class Class {
+
+	public static void main(String[] args) {
+		
+	gaadhi cusub = new gaadhi();
+	cusub.start();
+	cusub.sound();
+	
+		
+		
+		
+	}
+
+}
+class gaadhi
+
+{
+	
+	//String color;
+	//String design;
+	
+	void start(){
+		System.out.println("isnt started");
+	
+	}
+	void sound(){
+		System.out.println("it started");
+	}
+}
+
+
+
+

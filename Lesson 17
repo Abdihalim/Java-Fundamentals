@@ -1,0 +1,37 @@
+Arrays
+------
+Define Arrays!!!!!?.
+---------------------------------------------------------------------------
+Arrays are a way to store list of items. Each element of the array holds an individual item, and you can place items into and remove items from thoes slots as you need.
+---------------------------------------------------------------------------
+Arrays in Java are different in the other langs, they are actual objects that can be passed around and treated like other objects.
+
+To create an array in java, you need to:
+1- Declare variable to hold the array
+2-Create new array object and assign it to the array variable
+3- Store things in that array.
+
+Example 1
+--------
+Creating an array is the same in all the data types but only the data types are different.
+int arr[] = new int[5];
+String str[] = new String[10];
+char f[] = new char[6];
+
+Example 2
+--------
+int aniga[] = new int[4];
+aniga[0] = 15;
+aniga[1] = 20;
+aniga[2] = 30;
+aniga[3] = 21;
+aniga[4] = 0;
+
+Example 3
+---------
+
+int aniga[] = {15, 20, 30, 21, 0};
+for(j=0;j<aniga.length;j++)
+{
+System.out.println(aniga[s]);//aniga of s //list the values of aniga array.
+}

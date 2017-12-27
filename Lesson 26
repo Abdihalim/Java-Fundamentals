@@ -1,0 +1,42 @@
+Constructor 3: Overloading Constructor
+--------------------------------------
+We have added another line age to overload the Constructor
+
+public class Student {
+
+	
+	int id;
+	String name;
+	int age;
+	
+Student(int b, String f){
+		
+		id = b;
+		name = f;
+	
+	}
+Student(int b, String f, int a){
+	
+	id = b;
+	name = f;
+	age = a;
+}
+
+	
+	void show(){
+		
+		System.out.println(id+" "+name+" "+age);
+	}
+	public static void main(String[] args) {
+	
+
+		Student kow = new Student(23,"Jamac");
+		Student labo = new Student(35,"Muse", 23);
+		
+		kow.show();
+		labo.show();
+		
+
+	}
+
+}

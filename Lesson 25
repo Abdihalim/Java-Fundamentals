@@ -1,0 +1,38 @@
+Parametrized constructor
+-----------------------
+Java parameterized constructor
+A constructor that have parameters is known as parameterized constructor.
+Why use parameterized constructor?
+Parameterized constructor is used to provide different values to the distinct objects.
+Example of parameterized constructor
+
+Example
+--------
+public class Student {
+
+	int id;
+	String name;
+	
+	Student(int b, String f){
+		
+		id = b;
+		name = f;
+	}
+	
+	void show(){
+		
+		System.out.println(id+" "+name);
+	}
+	public static void main(String[] args) {
+	
+
+		Student kow = new Student(23,"Jamac");
+		Student labo = new Student(35,"Muse");
+		
+		kow.show();
+		labo.show();
+		
+
+	}
+
+}

@@ -1,0 +1,63 @@
+Inheritance
+------------
+
+Example 1
+---------
+
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+		amin kan = new amin();
+		kan.eats();
+		kan.runs();
+		Ahmed faarax = new Ahmed();
+		faarax.eats();
+		faarax.exercises();
+		faarax.runs();
+		faarax.plays();
+		System.out.println("Amin is in " +faarax.fasal);
+		System.out.println("Amins name is  " +faarax.magac);
+		System.out.println("Amins tel is " +faarax.tel);
+
+
+	
+	}
+}
+class amin
+{
+	
+	
+	int tel = 40;
+	String magac = "Amin";
+	String fasal = "Class 4";
+	
+	void eats(){
+		
+		System.out.println("Amina eats food");
+		
+	}
+	void runs(){
+		
+		System.out.println("Amina runs everyday");
+		
+	}
+	
+}
+class Ahmed  extends amin
+{
+	int tel_num;
+	int qol_num;
+	
+	
+	void exercises(){
+		
+		System.out.println("Qoyan runs every day");
+
+	}
+void plays(){
+		
+		System.out.println("qoyan plays everyday");
+}
+}

@@ -1,0 +1,38 @@
+Creating more objects and classes
+--------------------------------
+
+public class yeni {
+
+	
+	public static void main(String[] args) {
+		
+    mahad shay = new mahad();
+    shay.eats();
+    shay.runs();
+    shay.reads();
+	}
+
+}
+class mahad
+{
+    int tel;
+    String color;
+    String timo;
+    String gadh;
+    String xaas;
+    
+    void runs(){
+    	
+    	System.out.println("He runs fast");
+    	
+    }
+    void reads(){
+    	
+    	System.out.println("Mahad reads all books");
+    }
+	void eats(){
+		
+		System.out.println("He eats less food");
+	}
+	
+}

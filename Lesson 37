@@ -1,0 +1,70 @@
+Java input/Output IO
+--------------------
+
+Input example 1
+---------------
+import java.util.Scanner;
+
+   
+      
+    class Student8{  
+      
+    	public static void main(String[] args){
+    		
+    		Scanner scanner = new Scanner(System.in);
+    		int j = scanner.nextInt();
+    		System.out.println("The number is: "+j);
+    		
+    		
+    		
+    		
+    	}
+    }
+    
+Input character Example 2
+-------------------------
+import java.util.Scanner;
+
+   
+      
+    class Student8{  
+      
+    	public static void main(String[] args){
+    		
+    		Scanner scanner = new Scanner(System.in);
+    		System.out.println("Enter a character");
+    		//int j = scanner.nextInt();
+    		char f = scanner.next().charAt(0);
+    		
+    		System.out.println("The char is: "+f);
+    		
+    		
+    		
+    		
+    	}
+    }
+    
+Input String Example 3
+----------------------
+import java.util.Scanner;
+
+   
+      
+    class Student8{  
+      
+    	public static void main(String[] args){
+    		
+    		Scanner scanner = new Scanner(System.in);
+    		System.out.println("Enter a character");
+    		//int j = scanner.nextInt();
+    		String f = scanner.next();
+    		
+    		System.out.println("The char is: "+f);
+    		
+    		
+    		
+    		
+    	}
+    }
+    
+    

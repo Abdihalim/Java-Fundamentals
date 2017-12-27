@@ -1,0 +1,91 @@
+Method overriding 
+-----------------
+Its to write same methods in different classes but inherited ones, they have to have same number of parameters, but the values can be different.
+
+
+Example 1
+--------
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+	
+		hooyo ani = new hooyo();
+		ani.wiil(4, 5, 7);
+		ani.wiil(4, 9, 7);
+		
+		System.out.println();
+		
+		
+		
+		
+	}
+}
+class hooyo {
+	
+	
+	
+	
+  void wiil (int a, int b, int c){
+		
+		System.out.println("the number is  "+a+" " +b+" "+c);
+	}
+  
+	
+	
+}
+class aniga extends hooyo{
+	
+void wiil (int a, int b, int c){
+		
+		System.out.println("the number is  "+a+" " +b+" "+c);
+}
+  
+		
+	}
+	
+
+	
+Example 2 // make strings after understanding the examples
+---------
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+	
+		hooyo ani = new hooyo();
+		ani.wiil(4,5);
+		ani.wiil(4,9);
+		
+		System.out.println();
+		
+		
+		
+		
+	}
+}
+class hooyo {
+	
+	
+	
+	
+  void wiil (int a, int c){
+		
+		System.out.println("the number is  "+a+" "+" "+c);
+	}
+  
+	
+	
+}
+class aniga extends hooyo{
+	
+void wiil (int a, int c){
+		
+		System.out.println("the number is  " +a+ " " +" "+c);
+}
+  
+		
+	}
+	

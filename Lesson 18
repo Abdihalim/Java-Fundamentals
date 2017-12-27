@@ -1,0 +1,19 @@
+Finding an Array
+----------------
+
+int aniga[] = {20,30,40,7,6};
+
+int raadi = 6;
+
+for (int s=0;s<aniga.length;s++)
+{
+if (aniga[s] = raadi){
+
+System.out.println("the value is 6");
+}
+
+}
+}
+}
+
+so it will show the value of 6

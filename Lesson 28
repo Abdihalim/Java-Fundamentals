@@ -1,0 +1,63 @@
+Example 2: Inheritance
+----------------------
+
+
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+		hooyo yar = new hooyo();
+		yar.feker();
+		System.out.println("Maamadeena dhererkeedu waa "+yar.dherer);
+		System.out.println("Maamadeena dhererkeedu waa "+yar.dherer);
+		yar.naxariis();
+		yar.waxsiin();
+		
+		aniga wiil = new aniga();
+		
+		wiil.farxad();
+		wiil.feker();
+		wiil.farxad();
+		wiil.qaylo();
+		
+		
+		
+		
+		
+	}
+}
+class hooyo {
+	
+	
+	String indho = "bulug";
+	double dherer = 12.2;
+	double miisan = 60.2;
+	
+	void naxariis(){
+		System.out.println("hooyo wa naxariis");
+	}
+	void waxsiin(){
+		System.out.println("hooyo wa deeqsiyad");
+	}
+	void feker(){
+		System.out.println("hooyo wa inaga fekertaa mar walba");
+	}
+}
+class aniga extends hooyo{
+	
+	String indho = "buluug";
+	int tel = 4499;
+	
+	void qaylo(){
+		System.out.println("waan qaylinaa");
+
+		
+	}
+	void farxad(){
+		System.out.println("waan faraxnaa");
+
+		
+	}
+	
+}

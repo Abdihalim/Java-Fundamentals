@@ -1,0 +1,55 @@
+Access specifiers (Access modifiers)
+------------------------------------
+Access modifiers (or access specifiers) are keywords in object-oriented languages that set the accessibility of classes, methods, and other members. Access modifiers are a specific part of programming language syntax used to facilitate the encapsulation of components.
+
+There are 2 access modifiers
+   1- class level
+   2- Method (member leve)
+   
+   public: means the project can seen by all the other classes in the same package and others in the same package with java application.
+   
+   Example 1
+   ---------
+   
+public class Employee {
+
+	
+	public static void main(String[] args) {
+		
+	
+		
+		
+		
+		
+		
+	}
+}
+// step 1: This class can be seen in the current package
+ //step 2: int talefan = 66;
+ // try to call the tel from above by writing    hooyo tel = new hooyo(); System.out.println("Hoyo telkedu wa "+tel.talefan); it works (defult)
+ // try to add publc int talefan = 66; the run the code again
+ // try to add private but this one can be called in the same class as shown here  // publc int talefan = 66; and try to call it.
+ // add a method like  private void sleeps() {}
+ // try to call from above this wont happen 
+ //padd public void sleeps() {}
+ // create a variable with protected, protected String timo = "Casaas"; so if its protected it can be called from the same package and the also 
+ the inherited ones (child  class).
+ 
+ 
+ 
+class hooyo {
+	
+	int talefan = 66;
+	
+	
+	
+}
+class aniga extends hooyo{
+	
+	
+		
+	}
+	
+   
+   
+   
