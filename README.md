@@ -1,2 +1,2 @@
-# Java-Fundamentalayout
+# Java Fundamentals Course
 
