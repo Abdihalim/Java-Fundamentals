@@ -1,0 +1,33 @@
+package jama;
+
+public class test {
+
+	public static void main(String[] args) {
+
+	bisad madow = new bisad();	
+	madow.cunid();
+	madow.orodda();
+	madow.color = "caddan";
+	madow.weight = 3.4;	
+	System.out.println(madow.color);
+
+	}
+
+	}
+class bisad{ // class name
+	// Properties 
+	String color;
+	double weight;
+		
+	// behaviour
+	void cunid() {
+System.out.println("cat eats meat");
+	}
+	void orodda() {
+		System.out.println("cat runs fast");
+
+	}
+	
+}
+
+
