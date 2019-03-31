@@ -1,7 +1,8 @@
 Constructors
 ------------
 Constructor in java is a special type of method that is used to initialize the object. 
-Java constructor is invoked at the time of object creation. It constructs the values i.e. provides data for the object that is why it is known as constructor. 
+Java constructor is invoked at the time of object creation.
+It constructs the values i.e. provides data for the object that is why it is known as constructor. 
 
 Rules for creating java constructor
 ------------------------------------
