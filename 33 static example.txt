@@ -1,0 +1,29 @@
+package test;
+
+public class tes {
+	// static with variable 
+	static int nimco = 8;
+	
+	public static void main(String[] args) {
+tes cali = new tes();
+cali.sleep();
+muse eeg = new muse();
+System.out.println("The Nimo's number is: " +cali.nimco);
+eeg.name = "Maxamed";
+eeg.eat();
+System.out.println("his name is: " + eeg.name);
+
+	}
+	static void sleep() {
+		System.out.println("System");
+	}
+	static class muse{
+		String name;
+		int tel_no =555;
+		void eat() {
+			System.out.println("muse eats");
+		}
+	}
+	}
+
+
