@@ -36,3 +36,42 @@ class mahad
 	}
 	
 }
+
+The following example will present the properties and the methods working together.
+class Main {
+  public static void main(String[] args) {
+   hooyo  farxia = new hooyo();
+   farxia.breast_feed();
+   farxia.raise_us();
+   farxia.cooks_food();
+   System.out.println("hooy dhererkeddu waa " + farxia.height);
+   /*farxia.weight;
+   farxia.tel;
+   farxia.color;
+   farxia.name;*/
+   
+  }
+}
+class hooyo{
+int height = 123;
+/*int weight = 50;
+String name = "AMina";
+String address = "laaska";
+int tel = 449;
+String color = "blue";*/
+
+void breast_feed(){
+      System.out.println("breast feed her children");
+
+}
+void cooks_food(){
+      System.out.println("cooks food everday");
+
+}
+void raise_us(){
+      System.out.println("raise all the children");
+
+}
+
+
+}
