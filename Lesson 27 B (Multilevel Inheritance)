@@ -10,7 +10,8 @@ class bisadyar extends Bisad{
         System.out.println("Way oydaa");
   }
 }
-class bisadhexe extends Bisad{
+class bisadhexe extends bisadyar{ // This class can call the functions and the properties of the above 
+classes.
   int indho = 2;
   void caanocabid(){
         System.out.println("caanay cabtaa");
