@@ -1,0 +1,34 @@
+class Bisad{
+  String BisadColor = "Green";
+  void cidaa(){
+        System.out.println("Way cidaa");
+  }
+}
+class bisadyar extends Bisad{
+  int lugo = 4;
+  void oohin(){
+        System.out.println("Way oydaa");
+  }
+}
+class bisadhexe extends Bisad{
+  int indho = 2;
+  void caanocabid(){
+        System.out.println("caanay cabtaa");
+  }
+}
+
+class Main {
+  public static void main(String[] args) {
+    Bisad  yar = new Bisad();
+    bisadyar kati = new bisadyar();
+    bisadhexe kutu = new bisadhexe();
+    yar.cidaa();
+    kati.cidaa();
+    kati.oohin();
+   kutu.caanocabid();
+  System.out.println(kati.BisadColor);
+  System.out.println(kutu.BisadColor);
+
+
+  }
+}
