@@ -1,16 +1,37 @@
-    class Animal{  
-    void eat(){System.out.println("eating...");}  
-    }  
-    class Dog extends Animal{  
-    void bark(){System.out.println("barking...");}  
-    }  
-    class Cat extends Animal{  
-    void meow(){System.out.println("meowing...");}  
-    }  
-    class TestInheritance3{  
-    public static void main(String args[]){  
-    Cat c=new Cat();  
-    c.meow();  
-    c.eat();  
-    //c.bark();//C.T.Error  
-    }}  
+    class Maxamed{
+
+  String name = "Maxamed";
+  int tel = 6766;
+  void salaad(){
+    System.out.println("Parays 5 times");
+  }
+}
+class faarax extends Maxamed{
+  String married = "yes";
+   void shaqo(){
+    System.out.println("wuu shaqeeya");
+  }
+}
+class yasin extends Maxamed{
+  String magac = "Yasin";
+  void hanti(){
+        System.out.println("Hanti ayu leyahay");
+
+  }
+}
+class Main {
+  public static void main(String[] args) {
+    Maxamed s = new Maxamed();
+    faarax m = new faarax();
+    yasin n = new yasin();
+    s.salaad();
+    m.salaad();
+    n.salaad();
+    System.out.println(m.name);
+    System.out.println(n.magac);
+  System.out.println(m.name);
+  System.out.println(n.name);      
+
+
+  }
+}
